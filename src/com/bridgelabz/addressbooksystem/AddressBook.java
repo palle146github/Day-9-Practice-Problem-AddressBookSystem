@@ -4,8 +4,6 @@ import java.util.Scanner;
 
 public class AddressBook {
     Contact contact = new Contact();
-
-
     public void addContact() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter contact details");
@@ -25,11 +23,9 @@ public class AddressBook {
         String phonenumber = scanner.next();
         System.out.println("Enter Email");
         String email = scanner.next();
-
         Contact contact = new Contact(firstname,lastname, address, city, state, zip, phonenumber, email);
         this.contact = contact;
     }
-
     public void editContact() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the name to edit contact details");
@@ -58,5 +54,22 @@ public class AddressBook {
         }
     }
 
-
+    public void deleteContact() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter the name to edit contact details");
+        String fname = scanner.next();
+        if( fname.equalsIgnoreCase(contact.getFirstname())){
+            contact.setFirstname(null);
+            contact.setLastname(null);
+            contact.setAddress(null);
+            contact.setCity(null);
+            contact.setState(null);
+            contact.setPhonenumber(null);
+            contact.setEmail(null);
+            contact.setZip(null);
+        }
+        else{
+            System.out.println("Contact "+fname+" does not exist in Address Book System");
+        }
+    }
 }
