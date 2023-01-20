@@ -3,7 +3,10 @@ package com.bridgelabz.addressbooksystem;
 import java.util.Scanner;
 
 public class AddressBook {
+    
     Contact contact = new Contact();
+    
+    // method for adding contact into the address book system
     public void addContact() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter contact details");
@@ -26,6 +29,7 @@ public class AddressBook {
         Contact contact = new Contact(firstname,lastname, address, city, state, zip, phonenumber, email);
         this.contact = contact;
     }
+    // method for editing the existing contact in the address book system
     public void editContact() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the name to edit contact details");
@@ -53,7 +57,7 @@ public class AddressBook {
 
         }
     }
-
+    // method to delete the existing contact in the address book system
     public void deleteContact() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the name to edit contact details");
