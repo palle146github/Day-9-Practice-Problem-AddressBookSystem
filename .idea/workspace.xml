@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77243642-c535-45b8-9d20-7c2515362335" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/bridgelabz/addressbooksystem/AddressBook1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bridgelabz/addressbooksystem/AddressBookMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bridgelabz/addressbooksystem/Contact1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Day9PracticeProblems/com/bridgelabz/addressbooksystem/AddressBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Day9PracticeProblems/com/bridgelabz/addressbooksystem/AddressBook.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bridgelabz/addressbooksystem/AddressBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bridgelabz/addressbooksystem/AddressBook.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,15 +31,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/Day9PracticeProblems",
-    "settings.editor.selected.configurable": "preferences.editor"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Day9PracticeProblems&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="AddressBookMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bridgelabz.addressbooksystem.AddressBookMain" />
@@ -75,20 +70,5 @@
       <updated>1674149638583</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/com/bridgelabz/addressbooksystem/AddressBookMain.java</url>
-          <line>5</line>
-          <properties class="com.bridgelabz.addressbooksystem.AddressBookMain" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
