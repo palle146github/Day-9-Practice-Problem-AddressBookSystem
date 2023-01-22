@@ -1,10 +1,8 @@
 package com.bridgelabz.addressbooksystem;
-// Contact class with the imformation as a variable which are added to the Address Book
+
 public class Contact {
     private String firstname, lastname, address, city, state, zip, phonenumber ,email;
-    Contact(){}// default constructor declaration
 
-    //parameterized constructor for initializing the objects with the current objects
     public Contact(String firstname, String lastname, String address, String city, String state, String zip, String phonenumber, String email) {
         this.firstname = firstname;
         this.lastname = lastname;
@@ -16,7 +14,10 @@ public class Contact {
         this.email = email;
     }
 
-    // getters and setters
+    public Contact() {
+
+    }
+
     public String getFirstname() {
         return firstname;
     }
@@ -91,5 +92,4 @@ public class Contact {
                 +"\nPhone number : "+ phonenumber
                 +"\nEmail : "+ email;
     }
-
 }

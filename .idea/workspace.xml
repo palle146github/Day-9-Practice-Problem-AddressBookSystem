@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77243642-c535-45b8-9d20-7c2515362335" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/bridgelabz/addressbooksystem/AddressBook1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bridgelabz/addressbooksystem/AddressBookMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bridgelabz/addressbooksystem/Contact1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Day9PracticeProblems/com/bridgelabz/addressbooksystem/AddressBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Day9PracticeProblems/com/bridgelabz/addressbooksystem/AddressBook.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Day9PracticeProblems/com/bridgelabz/addressbooksystem/AddressBookMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Day9PracticeProblems/com/bridgelabz/addressbooksystem/AddressBookMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Day9PracticeProblems/com/bridgelabz/addressbooksystem/Contact.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Day9PracticeProblems/com/bridgelabz/addressbooksystem/Contact.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/bridgelabz/addressbooksystem/AddressBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bridgelabz/addressbooksystem/AddressBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bridgelabz/addressbooksystem/AddressBookMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bridgelabz/addressbooksystem/AddressBookMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bridgelabz/addressbooksystem/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bridgelabz/addressbooksystem/Contact.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,5 +75,20 @@
       <updated>1674149638583</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/bridgelabz/addressbooksystem/AddressBookMain.java</url>
+          <line>5</line>
+          <properties class="com.bridgelabz.addressbooksystem.AddressBookMain" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -2,31 +2,43 @@ package com.bridgelabz.addressbooksystem;
 
 import java.util.Scanner;
 
-public class AddressBookMain {// Address book main calss
+public class AddressBookMain {
     public static void main(String[] args) {
-        AddressBook addressBook = new AddressBook();
-        Scanner s = new Scanner(System.in);
-        while(true){// infinite loop for multiple task performance
-        System.out.println("Choose one option");
-        System.out.println("1. Add contact  2. Edit contact  3. Delete Contact 4. Display Contacts");
-        int option = s.nextInt();
-            switch (option) {
+        System.out.println("Welcome to Address Book System!!");
+        Scanner sc = new Scanner(System.in);
+        AddressBook addressbook = new AddressBook();
+        System.out.println("Please select the option you want to do in Address Book!!  ");
+        boolean stoprun = false;
+        int choice;
+        while (!stoprun) {
+            System.out.println("1.Create Contact\t 2.Show Contacts\t 3.Delete Contact\t 4.Update Contact\t 5.Quit");
+            System.out.println("Enter your option: ");
+            choice = sc.nextInt();
+
+            switch (choice) {
                 case 1:
-                    addressBook.addContact();// add contact method call
+                    addressbook.addContact();
+                    System.out.println();
                     break;
                 case 2:
-                    addressBook.editContact();// edit contact method call
+                    addressbook.showaddress();
+                    System.out.println();
                     break;
                 case 3:
-                    addressBook.deleteContact();// delete contact method call
+                    addressbook.deleteContact();
                     break;
                 case 4:
-                    addressBook.contactDisplay();// display contacts method call
+                    addressbook.updateContact();
+                    break;
+                case 5:
+                    stoprun = true;
+                    System.out.println("Application is exited!!");
                     break;
                 default:
-                    System.out.println("Invalid option");
+                    System.out.println("Incorrect choice");
                     break;
             }
         }
+
     }
 }
